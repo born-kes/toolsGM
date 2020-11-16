@@ -1,0 +1,15 @@
+{
+  "js": [
+    "n2ko1yob.js",
+    "static/js/2.78c94a73.chunk.js",
+    "static/js/main.6a408b2d.chunk.js",
+    "webpackJsonpmy-app.js"
+  ],
+  "jsAsync": [
+    "https://www.googletagmanager.com/gtag/js?id=UA-141043483-2"
+  ],
+  "css": [
+  "static/css/2.a818b104.chunk.css",
+  "static/css/main.ba7c61e1.chunk.css"
+    ]
+}
