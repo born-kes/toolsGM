@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/toolsGM/static/css/main.ba7c61e1.chunk.css",
+    "main.js": "/toolsGM/static/js/main.85857a79.chunk.js",
+    "main.js.map": "/toolsGM/static/js/main.85857a79.chunk.js.map",
+    "runtime-main.js": "/toolsGM/static/js/runtime-main.03676402.js",
+    "runtime-main.js.map": "/toolsGM/static/js/runtime-main.03676402.js.map",
+    "static/css/2.a818b104.chunk.css": "/toolsGM/static/css/2.a818b104.chunk.css",
+    "static/js/2.8d8a4501.chunk.js": "/toolsGM/static/js/2.8d8a4501.chunk.js",
+    "static/js/2.8d8a4501.chunk.js.map": "/toolsGM/static/js/2.8d8a4501.chunk.js.map",
+    "index.html": "/toolsGM/index.html",
+    "precache-manifest.8bb1ab443f88407427463297b5392167.js": "/toolsGM/precache-manifest.8bb1ab443f88407427463297b5392167.js",
+    "service-worker.js": "/toolsGM/service-worker.js",
+    "static/css/2.a818b104.chunk.css.map": "/toolsGM/static/css/2.a818b104.chunk.css.map",
+    "static/css/main.ba7c61e1.chunk.css.map": "/toolsGM/static/css/main.ba7c61e1.chunk.css.map",
+    "static/js/2.8d8a4501.chunk.js.LICENSE.txt": "/toolsGM/static/js/2.8d8a4501.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03676402.js",
+    "static/css/2.a818b104.chunk.css",
+    "static/js/2.8d8a4501.chunk.js",
+    "static/css/main.ba7c61e1.chunk.css",
+    "static/js/main.85857a79.chunk.js"
+  ]
+}
