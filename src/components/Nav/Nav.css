@@ -1,28 +1,40 @@
-@import url('https://css.gg/css');
-
-body{
-    font-size:14px;
-    /*--ggs:1;*/
-    background-color: orange;
-}
-@media only screen and (max-device-width : 475px){
-    body{
-        font-size:14px;
-        background-color: #5E35B1;
-    }
+.nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: var(--height-nav);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow-x: auto;
 }
 
-@media only screen and (min-width : 321px) and (max-width:375px){body{font-size:16px;background-color: red;}}
-@media only screen and (min-width : 376px) and (max-width:415px){body{font-size:18px;background-color: pink;}}
-@media only screen and (min-width : 414px) and (max-width:615px){body{font-size:18px;background-color: black;}}
-@media only screen and (min-width : 615px) and (max-height:400px){body{font-size:18px;background-color: black;}}
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--primary-color);
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    min-height: 50px;
+    min-width: 50px;
+}
+.nav__link:hover a{
+    background-color: var(--primary-bg);
+    color: var(--primary-color-text);
+    transition: color .8s ease-in-out, background-color 1.8s ease;
+}
+.nav__link--active {
+    color: var(--primary-bg);
+}
+/*.nav__text{
+    margin-top: 1em;
+}*/
+.nav__icon{
 
-html {
-    font-size: 62.5%;
-}
-body {
-    font-size: 1.4rem;
-}
-h1 {
-    font-size: 2.4rem;
+    margin: .3em;
 }

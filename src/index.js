@@ -5,9 +5,7 @@ import './index.css';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <div>
         <App />
-    </div>
  , document.getElementById('root') );
 
 // serviceWorker.unregister(); // Disable to work offline. This can make it difficult to remove errors

@@ -1,0 +1,38 @@
+html{
+    /** default **/
+    --bg: orange;
+    --primery-bg: orange ;
+    --secondary-bg: var( --bg, #fff );
+
+    --color-text: #000;
+    --primery-color-text: var( --color-text, #000 );
+    --secondary-color-text: var( --color-text, #000 );
+
+    --pading: 0px 0px;
+    --primery-pading: var( --pading, 0px );
+    --secondary-pading: var( --pading, 0px );
+
+    --shodow-h-offset: 0px;
+    --primery-shodow-h-offset: var( --shodow-h-offset, 0px );
+    --secondary-shodow-h-offset: var( --shodow-h-offset, 0px );
+
+    --shodow-v-offset: 0px;
+    --primery-shodow-v-offset: var( --shodow-v-offset, 0px );
+    --secondary-shodow-v-offset: var( --shodow-v-offset, 0px );
+
+    --shodow-blur: 0px;
+    --primery-shodow-blur: var( --shodow-blur, 0px );
+    --secondary-shodow-blur: var( --shodow-blur, 0px );
+
+    --font-size: 20px;
+    --primery-font-size: var( --font-size, 14px );
+    --secondary-font-size: var( --font-size, 14px );
+
+    --gab: 20;
+
+    --primery-gab:  var( --gab, 10 );
+    --secondary-gab:  var( --gab, 10 );
+    --converter: calc( var(--gab) * 1px );
+
+
+}

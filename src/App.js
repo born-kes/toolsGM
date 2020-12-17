@@ -1,17 +1,19 @@
 import React, {Component} from "react";
+import SchemeColor from "./components/SchemeColor/";
 import Nav from "./components/Nav/Nav";
-import NavBar from "./components/NavBar/";
-import ListNav, {NavBarList} from "./Utils/ListNav";
+import ListNav from "./Utils/ListNav";
 
 class App extends Component {
 
     render() {
-    return (<div>
-            <NavBar item={NavBarList} ></NavBar>
-                <Nav className={`nav`} value={ListNav} />
+        return (<div>
+            <Nav className={`nav`} value={ListNav} />
+            <div className={`container`}>
+                <SchemeColor />
                 <h1>Hello Word!!</h1>
                 <p> whot now?</p>
             </div>
+    </div>
         )
     }
 }
