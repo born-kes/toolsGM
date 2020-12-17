@@ -1,0 +1,40 @@
+{
+  "default_locale": "pl-PL",
+  "short_name": "toolsGM",
+  "start_url": "http://localhost:3000/toolsGM/",
+  "name": "Create React App toolsGM Sample",
+  "description": "Strona dla Mistrzów Gry, zapewniaia zestaw narzędzi do prowadzenia sesji.",
+  "manifest_version": 2,
+  "version": "0.1",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "fullscreen",
+  "theme_color": "#5E35B1",
+  "background_color": "#5E35B1",
+  "color-scheme": "only dark",
+
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "KES",
+      "search_url": "https://www.discogs.com/search/?q={searchTerms}",
+      "keyword": "kes",
+      "favicon_url": "https://www.discogs.com/favicon.ico"
+    }
+  }
+}

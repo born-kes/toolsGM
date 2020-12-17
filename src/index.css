@@ -1,0 +1,22 @@
+
+
+:root {
+    /****   https://googlechrome.github.io/samples/css-custom-properties/   ****/
+    --primary-color: #5E35B1;
+    --primary-color-text: #FFF;
+}
+
+:root {
+    --height-nav: 5rem;
+}
+
+
+body{
+    height: 120vh;
+    /*padding:1em;*/
+    /*padding-bottom:.5em;*/
+    /*font-size: 62.5%;*/
+}
+body {
+    margin: 0 0 var(--height-nav) 0;
+}

@@ -1,19 +1,36 @@
 import React, {Component} from 'react';
 import Link from "../Link";
-// import * as PropTypes from "prop-types";
-    import PropTypes from 'prop-types';
+import * as PropTypes from "prop-types";
+    // import PropTypes from 'prop-types';
+import "./Nav.css";
+import "./Nav1.css";
+
 
 class Nav extends Component {
+
+    handler = ()=> {
+        navigator.vibrate([1000, 100, 100, 300,500, 50, 100, 100, 100, 800]);
+    }
     render() {
         let {value} = this.props;
-        let LiElements = value.map(({text,href}, nr) => (
-                <li key={nr}>
-                    <Link to={href}>{text}</Link>
-                </li>
+        let LiElements = value.map(({text,href,icon=''}, nr) => (
+                // <li key={nr}>
+            <div className="nav__link" onClick={this.handler.bind(this)}>
+                    <Link to={href} className="nav__link nav__link--active">
+                        <i className={`gg-${icon} nav__icon`}></i>
+                        <span className="nav__text">{text}</span>
+                    </Link>
+            </div>
+                // </li>
             )
         );
 
-        return <div><ul>{LiElements}</ul></div>
+
+        return <div id={`cssmenu`} className={`mobile-bottom-nav ${this.props.className}`} >
+            {/*<ul className={`mobile-bottom-nav__item-content`}>{LiElements}</ul>*/}
+
+            {LiElements}
+        </div>
     }
 }
 

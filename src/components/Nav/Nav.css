@@ -1,0 +1,28 @@
+@import url('https://css.gg/css');
+
+body{
+    font-size:14px;
+    /*--ggs:1;*/
+    background-color: orange;
+}
+@media only screen and (max-device-width : 475px){
+    body{
+        font-size:14px;
+        background-color: #5E35B1;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width:375px){body{font-size:16px;background-color: red;}}
+@media only screen and (min-width : 376px) and (max-width:415px){body{font-size:18px;background-color: pink;}}
+@media only screen and (min-width : 414px) and (max-width:615px){body{font-size:18px;background-color: black;}}
+@media only screen and (min-width : 615px) and (max-height:400px){body{font-size:18px;background-color: black;}}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.4rem;
+}
+h1 {
+    font-size: 2.4rem;
+}
