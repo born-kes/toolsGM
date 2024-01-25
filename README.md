@@ -24,6 +24,17 @@ jest to wirtualny zestaw narzędzi takich jak:
 - PWA
 - GIT
 
+### Urchomianie
+
+Potrzebujesz zainstalować node.js
+
+```bash
+npm install
+```
+
+```bash
+npm run start
+```
 
  ### Demo - online
 
