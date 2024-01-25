@@ -1,6 +1,5 @@
 import React, {useContext} from 'react';
 import {Player} from "./Player/Player";
-import {Route} from "react-router-dom";
 import DropZone from 'react-drop-zone';
 import 'react-drop-zone/dist/styles.css';
 import {DataContext} from "./Content/Data";
@@ -45,7 +44,6 @@ export const Music2 = () => {
                         }
                     )}
                 </div>
-                    <Route path="/Music2/" >
                             <DropZone accept=".mp3, .ogg" onDrop={(file) =>{
                                 const newEl =         {
                                         name: file.name,
@@ -69,7 +67,6 @@ export const Music2 = () => {
                                                 </div>
                                     }
                             </DropZone>
-                    </Route>
             </div>
         )
 }

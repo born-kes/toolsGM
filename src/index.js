@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
+
 import {TimeRulerBox} from "./components/TimeRulerBox";
 import {Music1} from "./components/Music1";
 import {Music2} from "./components/Music2";
@@ -18,10 +14,7 @@ import SliderBox from "./components/Slider/SliderBox";
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render( <div>
-    <Router>
             <DataProvider>
-            <Switch>
-                <Route path="/" >
                     <div className={`container`}>
                         {/*<React.StrictMode>*/}
                         <TimeRulerBox />
@@ -34,8 +27,5 @@ ReactDOM.render( <div>
                         <SliderBox type='right' name='Chat'><Chat /></SliderBox>
                         {/*</React.StrictMode>*/}
                     </div>
-                </Route>
-            </Switch>
             </DataProvider>
-    </Router>
 </div> , document.getElementById('root') );
